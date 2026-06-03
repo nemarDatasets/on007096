@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PURSUE N170 Face Perception",
+  "description": "This dataset comprises event-related potential (ERP) recordings from a face perception task conducted as part of the PURSUE project. EEG data were collected from participants at three undergraduate institutions across the United States (2017-2018) using a standardized N170 face perception paradigm. The dataset is part of the ERP CORE initiative, providing an open resource for human event-related potential research with detailed task specifications and demographic information.",
+  "methods_description": "EEG data were collected from participants at three primarily undergraduate academic institutions located in Southern California, Massachusetts, and Virginia during a face perception task conducted in 2017-2018. The task design follows the ERP CORE protocol as described in Kappenman et al. (2021). Detailed methodology and task parameters are provided in the supplementary materials of the ERP CORE publication.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,45 +11,6 @@
     "Bukach, C.M.": {},
     "Reed,C.L.": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007096.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "10.1016/j.neuroimage.2020.117465",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007096",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007096",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "12.5 GB (294 files)"
-  ],
-  "formats": [
-    ".DS_Store",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "description": "The PURSUE N170 Face Perception dataset comprises event-related potential (ERP) recordings from a face perception task collected across three undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017-2018. This dataset implements the task design described in the ERP CORE resource (Kappenman et al., 2021), enabling investigation of the N170 component and face processing mechanisms. The data includes demographic information and standardized EEG recordings suitable for studying visual face perception and related cognitive processes.",
-  "methods_description": "EEG data were collected from participants at three primarily undergraduate academic institutions located in Southern California, Massachusetts, and Virginia during a face perception task conducted in 2017-2018. The task design follows the ERP CORE protocol as described in Kappenman et al. (2021). Detailed methodology and task parameters are provided in the supplementary materials of the ERP CORE publication.",
   "keywords": [
     {
       "term": "EEG"
@@ -63,19 +26,44 @@
     },
     {
       "term": "visual processing"
-    },
-    {
-      "term": "PURSUE project"
-    },
-    {
-      "term": "face processing"
-    },
-    {
-      "term": "ERP CORE"
-    },
-    {
-      "term": "multi-site study"
     }
   ],
-  "source_hash": "ad5ee925f8179e80e0cca72d7e09ade79b92b017f526624f6b3f6811e52b1c63"
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007096",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007096",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007096.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "12.5 GB (294 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "44bc5c26ca9d255865056a6221bb9b887d6b5814d25de3311d228e39a6339977"
 }

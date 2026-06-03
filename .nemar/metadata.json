@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE N170 Face Perception",
-  "description": "This dataset comprises event-related potential (ERP) recordings from a face perception task conducted as part of the PURSUE project. EEG data were collected from participants at three undergraduate institutions across the United States (2017-2018) using a standardized N170 face perception paradigm. The dataset is part of the ERP CORE initiative, providing an open resource for human event-related potential research with detailed task specifications and demographic information.",
+  "description": "The PURSUE N170 Face Perception dataset comprises event-related potential (ERP) recordings from a face perception task conducted across three undergraduate institutions. Data were collected from participants in 2017-2018 using a standardized task design documented in the ERP CORE resource. This dataset provides a multisite contribution to open-access human electrophysiological research on face processing and the N170 component.",
   "methods_description": "EEG data were collected from participants at three primarily undergraduate academic institutions located in Southern California, Massachusetts, and Virginia during a face perception task conducted in 2017-2018. The task design follows the ERP CORE protocol as described in Kappenman et al. (2021). Detailed methodology and task parameters are provided in the supplementary materials of the ERP CORE publication.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -19,10 +19,10 @@
       "term": "event-related potentials"
     },
     {
-      "term": "N170 component"
+      "term": "face perception"
     },
     {
-      "term": "face perception"
+      "term": "N170 component"
     },
     {
       "term": "visual processing"

@@ -1,29 +1,81 @@
 {
   "version": "2.0",
-  "dataset_id": "on007096",
-  "source": "openneuro",
-  "source_id": "ds007096",
+  "pipeline_stage": "enriched",
   "title": "PURSUE N170 Face Perception",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed,C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007096.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007096",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007096",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "12.5 GB (294 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The PURSUE N170 Face Perception dataset comprises event-related potential (ERP) recordings from a face perception task collected across three undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017-2018. This dataset implements the task design described in the ERP CORE resource (Kappenman et al., 2021), enabling investigation of the N170 component and face processing mechanisms. The data includes demographic information and standardized EEG recordings suitable for studying visual face perception and related cognitive processes.",
+  "methods_description": "EEG data were collected from participants at three primarily undergraduate academic institutions located in Southern California, Massachusetts, and Virginia during a face perception task conducted in 2017-2018. The task design follows the ERP CORE protocol as described in Kappenman et al. (2021). Detailed methodology and task parameters are provided in the supplementary materials of the ERP CORE publication.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "N170 component"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "PURSUE project"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "ERP CORE"
+    },
+    {
+      "term": "multi-site study"
+    }
+  ],
+  "source_hash": "ad5ee925f8179e80e0cca72d7e09ade79b92b017f526624f6b3f6811e52b1c63"
 }

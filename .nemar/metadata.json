@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE N170 Face Perception",
-  "description": "The PURSUE N170 Face Perception dataset comprises event-related potential (ERP) recordings from a face perception task conducted across three undergraduate institutions. Data were collected from participants in 2017-2018 using a standardized task design documented in the ERP CORE resource. This dataset provides a multisite contribution to open-access human electrophysiological research on face processing and the N170 component.",
-  "methods_description": "EEG data were collected from participants at three primarily undergraduate academic institutions located in Southern California, Massachusetts, and Virginia during a face perception task conducted in 2017-2018. The task design follows the ERP CORE protocol as described in Kappenman et al. (2021). Detailed methodology and task parameters are provided in the supplementary materials of the ERP CORE publication.",
+  "description": "EEG dataset from the PURSUE project of a face perception task designed to elicit the N170 event-related potential. Data were collected from participants at three primarily undergraduate institutions in Southern California, Massachusetts, and Virginia during 2017 and 2018. The task follows the ERP CORE paradigm, and the dataset includes participant race information.",
+  "methods_description": "Face perception task following the ERP CORE N170 paradigm, with EEG recorded from participants at three undergraduate institutions in 2017 and 2018. Task details are provided in the ERP CORE supplementary materials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,16 +16,16 @@
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
+      "term": "N170"
     },
     {
       "term": "face perception"
     },
     {
-      "term": "N170 component"
+      "term": "event-related potentials"
     },
     {
-      "term": "visual processing"
+      "term": "PURSUE"
     }
   ],
   "related_identifiers": [
@@ -40,14 +40,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007096",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds007096.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007096",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -55,7 +55,7 @@
     "eeg"
   ],
   "sizes": [
-    "12.5 GB (294 files)"
+    "11.64 GB (294 files)"
   ],
   "formats": [
     ".DS_Store",
